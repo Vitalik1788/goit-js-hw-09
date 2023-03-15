@@ -22,7 +22,7 @@ function createPromise(position, delay) {
   });
 }
 
-refs.form.addEventListener('click', onPromiseCreate);
+refs.form.addEventListener('submit', onPromiseCreate);
 
 function onPromiseCreate(event) {
   event.preventDefault();
@@ -45,5 +45,5 @@ function onPromiseCreate(event) {
           `Rejected promise ${position} in ${delay}ms`
         );
       });
-  }
-}
+    }
+};
