@@ -11,6 +11,7 @@ const refs = {
   seconds: document.querySelector('span[data-seconds]'),
 };
 
+
 let userSelectedDate = null;
 let userDefaultDate = null;
 let intervalId = null;
